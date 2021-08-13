@@ -5,3 +5,5 @@ Let your imagination run wild for this one. Some ideas which you can do. Create 
 - Ask them to enter two legs and you tell them the hypotenuse.
 - Calculator for area of triangle
 - Similar quiz on Isosceles, Equilateral.
+
+[Live](https://do-you-know-triangle-jaak.netlify.app/)
