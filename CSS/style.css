@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    background-color: rgb(200, 224, 224);
+}
+
+nav{
+    background-color: blue;
+    padding: 1rem;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding-left: 1rem;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.container{
+    max-width: 60%;
+    margin: auto;
+    
+}
+.container h1{
+    font-family: cursive;
+    font-weight: bolder;
+    color: rgba(46, 28, 212, 0.596);
+    text-align: center;
+}
+.container h1 span{
+    color: black;
+}
+.container label{
+    font-size: x-large;
+    font-weight: bold;
+    
+}
+.container input{
+    width: 100%;
+    padding: 10px;
+    font-size: medium;
+    margin-bottom: 15px;
+    border-radius: 7px;
+}
+
+.container button{
+    font-size: 1.4rem;
+    padding: 10px 40px 10px 40px;
+    border-radius: 50%;
+    background-color: hsl(110, 78%, 66%);
+    color: white;
+    font-weight: bold;
+    
+}
+
+#output{
+    text-align: center;
+    padding: 20px;
+    border: 2px solid;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+/* Area */
+#formula-area{
+    max-width: 87%;
+    margin: auto;
+    border: 1px solid blue;
+    padding: 10px;
+    text-align: center;
+    font-family: cursive;
+    margin-bottom: 10px;
+}
+/* quiz  */
+.container-quiz{
+    max-width: 90%;
+    height: 210vh;
+    margin: auto;
+}
+.container-quiz h1{
+    font-family: cursive;
+    font-weight: bolder;
+    color: rgba(46, 28, 212, 0.596);
+}
+.container-quiz p{
+    font-size: 1.3rem;
+
+}
+.container-quiz p span{
+    font-weight: bold;
+}
+.container-quiz label{
+    font-size: 1.3rem;
+
+}
+.container-quiz #submit-answerBtn{
+    font-size: xx-large;
+    padding: 10px 40px 10px 40px;
+    border-radius: 50%;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    margin-top: 5vh;
+}
+
+
+/* Footer */
+
+.footer{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(91, 91, 207);   
+}
+.footer hr{
+    width: 70%;
+
+}
+.copyright-text{
+    text-align: center;
+    font-size: 1.2rem;
+}
+.copyright-text a{
+    text-decoration: none;
+    color: yellow;
+}
+#social-link{
+    text-align: center;
+}
+.social-link{
+    list-style: none;
+    max-width: 60%;
+    margin: auto;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.social-link li i{
+    text-shadow: 1px 1px 1px rgb(0, 60, 255);
+    color: #fff;
+}
